@@ -1,6 +1,7 @@
-function addFive(number) {
-  return number + 5;
-}
-
-console.log(123123)
-
+function findTheBug(word) {
+    for (let i = 0; i < word.length; i ++) {
+      if (word[i] === '#') {
+        return i;
+      }
+    }
+  }
