@@ -5,3 +5,6 @@ function findTheBug(word) {
       }
     }
   }
+
+let bug1 = '12#568';
+console.log(findTheBug(bug1));
