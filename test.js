@@ -1,7 +1,3 @@
-console.log(123123123123123123)
-console.log(123123123123123123)
-console.log(123123123123123123)
-
 function findTheBug(word) {
     for (let i = 0; i < word.length; i ++) {
       if (word[i] === '#') {
@@ -12,3 +8,4 @@ function findTheBug(word) {
 
 let bug1 = '12#568';
 console.log(findTheBug(bug1));
+console.log(12)
